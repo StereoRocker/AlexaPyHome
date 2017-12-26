@@ -1,7 +1,7 @@
 # DO NOT MODIFY
 
 # Import all files in the devices/ directory
-import devices
+from devices import *
 
 # Define an array
 endpoints = []
