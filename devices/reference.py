@@ -44,11 +44,11 @@ class Reference_Device:
     # Handles a Power On request, returns success as boolean
     def PowerOn(self):
         # Code to power on your device here
-        print(friendly_name + ": Power on request received!")
+        print(self.friendly_name + ": Power on request received!")
         return True
 
     # Handles a Power Off request, returns success as boolean
     def PowerOff(self):
         # Code to power off your device here
-        print(friendly_name + ": Power off request received!")
+        print(self.friendly_name + ": Power off request received!")
         return True
